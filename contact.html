@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Contact</title>
+    </head>
+    <body class="background"; background="background.jpeg">
+        <h1 class="titre">Formulaire de Contact</h1>
+        <br>
+        <br>
+        <br>
+        <form class="form">
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" name="prenom">
+            <br>
+            <br>
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom">
+            <br>
+            <br>
+            <label for="dateNaissance">Date de naissance</label>
+            <input type="date" id="dateNaissance" name="dateNaissance">
+            <br>
+            <br>
+            <label for="newsletter">Je veux recevoir la newsletter</label>
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <br>
+            <br>
+            <label for="commentaire">Commentaire</label>
+            <br>
+            <textarea id="commentaire" name="commentaire" rows="4"></textarea>
+            <button type="button" onclick="displayFormData()">Envoyer</button>
+        </form>
+        <br>
+        <br>
+        <br>
+        <a style="color: aqua;" href="index.html"><-Back</a>
+    </body>
+</html>
